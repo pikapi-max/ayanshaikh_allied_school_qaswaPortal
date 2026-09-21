@@ -1,0 +1,4 @@
+/* Preserve the original homepage logo appearance without affecting teacher-column colors. */
+.brand .mini-logo,.footer-brand .mini-logo{background:linear-gradient(145deg,#06a8df,#0b3f78)!important;color:#fff!important;box-shadow:0 14px 30px rgba(6,168,223,.3)!important;border:0!important;}
+.brand .mini-logo span,.footer-brand .mini-logo span{color:#fff!important;text-shadow:0 1px 2px rgba(0,0,0,.25)}
+.brand .mini-logo:after,.footer-brand .mini-logo:after{border-color:rgba(255,255,255,.75)!important}
