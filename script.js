@@ -1,0 +1,4 @@
+const menu=document.querySelector('.menu'),links=document.querySelector('.nav-links');if(menu)menu.addEventListener('click',()=>links.classList.toggle('open'));
+const progress=document.querySelector('.progress');window.addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(scrollY/max*100)+'%'});
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+const stars=document.querySelector('#stars');if(stars){for(let i=0;i<18;i++){const s=document.createElement('i');s.style.cssText=`position:absolute;left:${Math.random()*100}%;top:${Math.random()*100}%;width:2px;height:2px;background:#fff;border-radius:50%;opacity:${.2+Math.random()*.5};animation:pulse ${2+Math.random()*3}s infinite`;stars.append(s)}}
