@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#eaf9ff"/>
+  <rect x="60" y="120" width="1080" height="680" rx="36" fill="#fffef8"/>
+  <rect x="120" y="200" width="960" height="180" rx="26" fill="#cde8ff"/>
+  <rect x="120" y="420" width="430" height="260" rx="26" fill="#c9f0e0"/>
+  <rect x="610" y="420" width="470" height="260" rx="26" fill="#dfeaff"/>
+  <circle cx="230" cy="330" r="52" fill="#f5c9a9"/>
+  <rect x="180" y="390" width="120" height="120" rx="18" fill="#0b1f33" opacity=".15"/>
+  <circle cx="890" cy="330" r="52" fill="#f5c9a9"/>
+  <rect x="840" y="390" width="120" height="120" rx="18" fill="#0b1f33" opacity=".15"/>
+  <text x="600" y="100" font-size="62" text-anchor="middle" fill="#123c6a" font-family="Arial" font-weight="700">Campus Events</text>
+</svg>

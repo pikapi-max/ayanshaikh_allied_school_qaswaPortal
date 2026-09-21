@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#d3edf9"/>
+  <rect x="0" y="0" width="1200" height="500" fill="#b7def7"/>
+  <rect x="0" y="520" width="1200" height="380" fill="#f2eee6"/>
+  <rect x="140" y="220" width="920" height="410" rx="40" fill="#f7f7ff"/>
+  <rect x="210" y="310" width="780" height="230" rx="30" fill="#dff3ff"/>
+  <rect x="320" y="360" width="150" height="150" rx="18" fill="#8ed3ff"/>
+  <rect x="520" y="360" width="150" height="150" rx="18" fill="#7ce0d4"/>
+  <rect x="720" y="360" width="150" height="150" rx="18" fill="#9ed7ff"/>
+  <path d="M100 560 L1100 560" stroke="#8cb7da" stroke-width="18"/>
+  <circle cx="440" cy="600" r="70" fill="#f5c3a5"/>
+  <rect x="370" y="650" width="140" height="120" rx="18" fill="#0b1f33"/>
+  <circle cx="780" cy="600" r="70" fill="#f5c3a5"/>
+  <rect x="710" y="650" width="140" height="120" rx="18" fill="#0b1f33"/>
+  <text x="600" y="150" font-size="64" text-anchor="middle" fill="#103b6d" font-family="Arial" font-weight="700">Classroom Learning</text>
+</svg>
