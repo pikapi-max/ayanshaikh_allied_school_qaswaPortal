@@ -1,12 +1,12 @@
-/* Strong, browser-compatible subject colors for the four teacher columns */
-.teacher-columns{gap:24px;align-items:stretch}
-.teacher-column{padding:0 14px 16px;border-radius:22px;overflow:hidden;background:#fff;border:2px solid #d9e6ef;box-shadow:0 16px 34px rgba(10,54,94,.08)}
-.teacher-column .column-heading{margin:0 -14px 18px;padding:20px 18px 17px;border:0;min-height:120px}
-.teacher-column .column-icon{box-shadow:none}
-.teacher-column .teacher-card{margin-left:2px;margin-right:2px}
-.teacher-column .teacher-card:before{width:5px}
-.leadership{border-color:#c4b5fd;background:#faf7ff}.leadership .column-heading{background:#6d28d9}.leadership .column-heading h2,.leadership .column-heading span:not(.column-icon){color:#fff}.leadership .column-icon{background:#a78bfa;color:#fff}.leadership .teacher-card:before{background:#7c3aed}.leadership .teacher-role{color:#6d28d9}
-.stem{border-color:#99e6f3;background:#f1fcff}.stem .column-heading{background:#087f9b}.stem .column-heading h2,.stem .column-heading span:not(.column-icon){color:#fff}.stem .column-icon{background:#22d3ee;color:#063b4b}.stem .teacher-card:before{background:#0891b2}.stem .teacher-role{color:#087f9b}
-.humanities{border-color:#fed7aa;background:#fff9f0}.humanities .column-heading{background:#c2410c}.humanities .column-heading h2,.humanities .column-heading span:not(.column-icon){color:#fff}.humanities .column-icon{background:#fb923c;color:#572006}.humanities .teacher-card:before{background:#ea580c}.humanities .teacher-role{color:#c2410c}
-.enrichment{border-color:#f9a8d4;background:#fff3fa}.enrichment .column-heading{background:#be185d}.enrichment .column-heading h2,.enrichment .column-heading span:not(.column-icon){color:#fff}.enrichment .column-icon{background:#f472b6;color:#500724}.enrichment .teacher-card:before{background:#db2777}.enrichment .teacher-role{color:#be185d}
-@media(max-width:1000px){.teacher-columns{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.teacher-columns{grid-template-columns:1fr}.teacher-column .column-heading{min-height:100px}}
+/* Strong subject colors only for the Teachers page */
+.teachers-section .teacher-columns{gap:24px;align-items:stretch}
+.teachers-section .teacher-column{padding:0 14px 16px;border-radius:22px;overflow:hidden;background:#fff;border:2px solid #d9e6ef;box-shadow:0 16px 34px rgba(10,54,94,.08)}
+.teachers-section .teacher-column .column-heading{margin:0 -14px 18px;padding:20px 18px 17px;border:0;min-height:120px}
+.teachers-section .teacher-column .column-icon{box-shadow:none}
+.teachers-section .teacher-column .teacher-card{margin-left:2px;margin-right:2px}
+.teachers-section .teacher-column .teacher-card:before{width:5px}
+.teachers-section .leadership{border-color:#c4b5fd;background:#faf7ff}.teachers-section .leadership .column-heading{background:#6d28d9}.teachers-section .leadership .column-heading h2,.teachers-section .leadership .column-heading span:not(.column-icon){color:#fff}.teachers-section .leadership .column-icon{background:#a78bfa;color:#fff}.teachers-section .leadership .teacher-card:before{background:#7c3aed}.teachers-section .leadership .teacher-role{color:#6d28d9}
+.teachers-section .stem{border-color:#99e6f3;background:#f1fcff}.teachers-section .stem .column-heading{background:#087f9b}.teachers-section .stem .column-heading h2,.teachers-section .stem .column-heading span:not(.column-icon){color:#fff}.teachers-section .stem .column-icon{background:#22d3ee;color:#063b4b}.teachers-section .stem .teacher-card:before{background:#0891b2}.teachers-section .stem .teacher-role{color:#087f9b}
+.teachers-section .humanities{border-color:#fed7aa;background:#fff9f0}.teachers-section .humanities .column-heading{background:#c2410c}.teachers-section .humanities .column-heading h2,.teachers-section .humanities .column-heading span:not(.column-icon){color:#fff}.teachers-section .humanities .column-icon{background:#fb923c;color:#572006}.teachers-section .humanities .teacher-card:before{background:#ea580c}.teachers-section .humanities .teacher-role{color:#c2410c}
+.teachers-section .enrichment{border-color:#f9a8d4;background:#fff3fa}.teachers-section .enrichment .column-heading{background:#be185d}.teachers-section .enrichment .column-heading h2,.teachers-section .enrichment .column-heading span:not(.column-icon){color:#fff}.teachers-section .enrichment .column-icon{background:#f472b6;color:#500724}.teachers-section .enrichment .teacher-card:before{background:#db2777}.teachers-section .enrichment .teacher-role{color:#be185d}
+@media(max-width:1000px){.teachers-section .teacher-columns{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.teachers-section .teacher-columns{grid-template-columns:1fr}.teachers-section .teacher-column .column-heading{min-height:100px}}
